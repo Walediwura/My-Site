@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  margin: 10px auto 0 auto;
+  font-family: "Sacramento";
+  font-size: 5.525rem;
+  color: #66bfbf;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66bfbf;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+}
+p {
+  line-height: 2;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 4%;
+  border-color: #eaf6f6;
+  border-width: 5px;
+  margin: 100px auto;
+}
+a {
+  text-decoration: none;
+  color: #11999e;
+  cursor: pointer;
+  margin-left: 27px;
+}
+a:hover {
+  color: #eaf6f6;
+}
+.intro {
+  margin: 0 auto;
+  width: 30%;
+}
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 280px;
+  color: #11999e;
+}
+.middle-container {
+  margin-top: 30px;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+.pro {
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 150px;
+  transition: transform ease-in-out 0.6s;
+  cursor: pointer;
+}
+.top-cloud:hover {
+  transform: translateY(-5px);
+}
+.programmer {
+  padding: 15px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+  transition: transform ease-in-out 0.6s;
+  cursor: pointer;
+}
+.bottom-cloud:hover {
+  transform: translateY(-5px);
+}
+.profile-pic {
+  background-color: #f0ece3;
+  border-radius: 100%;
+}
+.design {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.gaming {
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row {
+  margin: 150px auto;
+  width: 50%;
+  text-align: left;
+}
+.contact-btn {
+  padding: 15px 20px;
+  background-color: #11999e;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: ease-in-out 1.5s;
+}
+.contact-btn:hover {
+  background-color: #dfd3c3;
+  border: #11999e solid 1px;
+}
+.stamp {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.love-games {
+  width: 45%;
+  margin: 40px auto 60px;
+}
+.footer-link {
+  transition: ease-in-out 0.7s;
+}
+.footer-link:hover {
+  color: ;
+}
